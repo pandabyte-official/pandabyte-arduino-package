@@ -1,0 +1,39 @@
+{
+  "packages": [
+    {
+      "name": "Pandabyte",
+      "maintainer": "Pandabyte",
+      "websiteURL": "https://pandabyte.com",
+      "email": "support@pandabyte.com",
+      "platforms": [
+        {
+          "name": "Pandabyte ESP Boards",
+          "architecture": "esp32",
+          "version": "1.0.0",
+          "category": "ESP32",
+          "url": "https://raw.githubusercontent.com/pandabyte-official/pandabyte-arduino-package/main/pandabyte/esp32/1.0.0/pandabyte-esp32-1.0.0.zip",
+          "archiveFileName": "pandabyte-esp32-1.0.0.zip",
+          "checksum": "SHA-256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "size": "123456",
+          "boards": [
+            {"name": "Pandabyte x32"},
+            {"name": "Pandabyte xC3"},
+            {"name": "Pandabyte x8266"},
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "esp32",
+              "name": "xtensa-esp32-elf-gcc",
+              "version": "esp-2021r2"
+            },
+            {
+              "packager": "esp32",
+              "name": "esptool_py",
+              "version": "3.1.0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
